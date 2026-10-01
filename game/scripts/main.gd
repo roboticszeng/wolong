@@ -167,6 +167,8 @@ func _refresh() -> void:
 	_build_guidance()
 	if not current_panel.is_empty():
 		_build_drawer()
+	if technology_layer != null:
+		move_child(technology_layer,get_child_count()-1)
 	if simulation.state.finished:
 		if not end_dialog_shown:
 			end_dialog_shown = true
