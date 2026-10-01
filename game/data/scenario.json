@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "start_year": 223,
+  "start_month": 5,
+  "review_year": 224,
+  "review_month": 10,
+  "initial": {"money": 80.0, "military": 60.0, "health": 82.0, "trust": 80.0},
+  "cities": {
+    "chengdu": {"name": "成都", "food": 90.0, "consumption": 4.0, "harvest": 80.0, "labor": 70.0, "reserved": 42.0},
+    "hanzhong": {"name": "汉中", "food": 30.0, "consumption": 2.0, "harvest": 20.0, "labor": 30.0, "reserved": 18.0}
+  },
+  "officers": [
+    {"id": "jiangwan", "name": "蒋琬", "description": "组织与交接可靠，适合仓储规范。", "specialty": "warehouse"},
+    {"id": "liyan", "name": "李严", "description": "擅长供给调度，适合道路整备。", "specialty": "road"},
+    {"id": "feiyi", "name": "费祎", "description": "协调各方；可替补两类事务。", "specialty": "coordination"}
+  ],
+  "projects": {
+    "warehouse": {
+      "name": "仓储防损与批次管理",
+      "stages": [
+        {"name": "成都试点", "months": 2, "cost": 6.0, "upkeep": 1.0, "food": 0.5, "labor": 8.0, "city": "chengdu"},
+        {"name": "稳定执行", "months": 3, "cost": 10.0, "upkeep": 1.5, "food": 0.5, "labor": 10.0, "city": "chengdu"},
+        {"name": "汉中推广", "months": 3, "cost": 10.0, "upkeep": 1.5, "food": 0.5, "labor": 6.0, "city": "hanzhong"}
+      ]
+    },
+    "road": {
+      "name": "成都—汉中粮道整备",
+      "stages": [
+        {"name": "修整栈道与交接站", "months": 4, "cost": 14.0, "upkeep": 2.0, "food": 0.5, "labor": 10.0, "city": "hanzhong"}
+      ]
+    }
+  },
+  "route": {"capacity": 12.0, "loss": 0.10, "improved_capacity": 20.0, "improved_loss": 0.06, "labor_per_food": 0.75, "money_per_food": 0.05},
+  "monthly_income": 4.0,
+  "monthly_upkeep": 3.0,
+  "market_price": 0.5,
+  "market_limit": 24.0,
+  "goal_food": 50.0
+}

@@ -1,0 +1,6 @@
+{
+  "irrigation": {"name":"水利与排灌", "icon":"farm", "summary":"清淤、分水与排涝，影响当地九月收成。", "cost":8, "upkeep":0.8, "food":0.3, "labor":5, "months":2, "harvest_bonus":0.15, "yield":0, "resource":"", "input":0, "sale_price":0, "explanation":"增益只在九月收获时兑现；错误排灌会减产。"},
+  "mining": {"name":"矿产与冶铁", "icon":"military", "summary":"检验矿样、分选与炉料管理，生产铁料。", "cost":10, "upkeep":0.8, "food":0.3, "labor":5, "months":2, "harvest_bonus":0, "yield":2, "resource":"iron", "input":0.5, "sale_price":1.2, "explanation":"采购小批矿石与燃料试制；铁料可用于军需，不等于建成现代钢厂。"},
+  "salt": {"name":"卤水制盐", "icon":"grain", "summary":"卤料采购、除泥与浓缩结晶，生产盐。", "cost":8, "upkeep":0.6, "food":0.2, "labor":4, "months":2, "harvest_bonus":0, "yield":1.8, "resource":"salt", "input":0.6, "sale_price":1.3, "explanation":"当地采购卤料小试，消耗燃料预算；盐可交易补充财政。"},
+  "sugar": {"name":"蔗糖作坊", "icon":"market", "summary":"采购蔗料、澄清糖汁与浓缩，生产糖。", "cost":9, "upkeep":0.6, "food":0.2, "labor":4, "months":2, "harvest_bonus":0, "yield":1.5, "resource":"sugar", "input":0.8, "sale_price":1.8, "explanation":"采购蔗料而非假定汉中能大规模种蔗；糖是财政商品，不是凭空增加粮食。"}
+}

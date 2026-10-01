@@ -1,0 +1,33 @@
+{
+ "sources": {
+  "fao_water":{"title":"FAO · Irrigation System","url":"https://www.fao.org/4/r4082e/r4082e06.htm"},
+  "fao_drain":{"title":"FAO · Irrigation and Drainage Impacts","url":"https://www.fao.org/4/v8350e/v8350e09.htm"},
+  "usgs_ore":{"title":"USGS · Iron Ore Statistics and Information","url":"https://www.usgs.gov/centers/national-minerals-information-center/iron-ore-statistics-and-information"},
+  "usgs_iron":{"title":"USGS · Iron and Steel","url":"https://pubs.usgs.gov/publication/70159439"},
+  "ou_steel":{"title":"Open University · Iron and Steel","url":"https://www.open.edu/openlearn/course/view.php?id=8604"},
+  "usgs_grade":{"title":"USGS · Taconite","url":"https://eros.usgs.gov/earthshots/taconite"},
+  "rsc_sep":{"title":"RSC · Evaporation, Filtration and Crystallisation","url":"https://edu.rsc.org/cpd/evaporation-filtration-and-crystallisation-teaching-practical-science/3009017.article"},
+  "gt_crystal":{"title":"Georgia Tech · Crystallization","url":"https://www.ssc.chbe.gatech.edu/crystallization"},
+  "bgs_salt":{"title":"BGS · Deposition","url":"https://www.bgs.ac.uk/discovering-geology/geological-processes/deposition/"},
+  "fao_sugar":{"title":"FAO AGRIS · Agro-industry Profiles: Sugar","url":"https://agris.fao.org/search/en/records/6473660d53aa8c89630cad29"},
+  "fao_filter":{"title":"FAO Feedipedia · Sugarcane Press Mud","url":"https://feedipedia.review.fao.org/node/563"}
+ },
+ "questions": [
+  {"id":"water_drain","topic":"irrigation","prompt":"田地积水，仓吏说再多引些水便能丰收。你怎么安排？","options":[{"text":"疏通排水，再按田块需求引水","quality":2},{"text":"维持旧法，不扩大引水","quality":1},{"text":"封住排水口，让田里一直蓄满","quality":0}],"explanation":"引水也要配合排水；积水并不等于作物得到适量水。","source":"fao_drain"},
+  {"id":"water_slope","topic":"irrigation","prompt":"山边水渠陡，水冲坏渠岸。现代常识能帮你想到什么？","options":[{"text":"把渠挖得更陡，水越快越好","quality":0},{"text":"先按旧法补坏处","quality":1},{"text":"分段消减落差，控制流速","quality":2}],"explanation":"坡度与流速有关，过快水流会冲蚀土渠。","source":"fao_water"},
+  {"id":"water_split","topic":"irrigation","prompt":"上游田总抢走水，下游田缺水，怎样改进分水？","options":[{"text":"只凭各村争取，不作记录","quality":0},{"text":"记录用水、设分水口，按需求调配","quality":2},{"text":"暂沿用旧次序轮流引水","quality":1}],"explanation":"分水控制和流量记录让分配有依据。","source":"fao_water"},
+  {"id":"water_maintain","topic":"irrigation","prompt":"渠道修好后，怎样让它持续发挥作用？","options":[{"text":"定期清淤、查渗漏与堵塞","quality":2},{"text":"沿用旧例，坏了再修","quality":1},{"text":"撤掉巡渠人手，修好就不会变坏","quality":0}],"explanation":"渠道仍需维护；淤积、渗漏会影响输水。","source":"fao_drain"},
+  {"id":"iron_ore","topic":"mining","prompt":"矿工把矿石当成铁料准备直接造农具，问题在哪？","options":[{"text":"沿用现有矿工的选料办法","quality":1},{"text":"矿石里可能含铁，还需冶炼成可用铁料","quality":2},{"text":"只要石头够重，就是现成铁料","quality":0}],"explanation":"铁矿是冶铁原料，不能把原矿与成品铁等同。","source":"usgs_ore"},
+  {"id":"iron_fuel","topic":"mining","prompt":"铁料小试一直失败，你会优先检查哪种关系？","options":[{"text":"检查含碳燃料、矿料与还原条件","quality":2},{"text":"只把矿石放水里泡，不用燃料","quality":0},{"text":"让老匠人按原有炉法继续","quality":1}],"explanation":"含碳材料参与冶铁还原，不只是把矿石烧热。","source":"usgs_iron"},
+  {"id":"iron_impurity","topic":"mining","prompt":"同一炉法换了矿料，成品品质突然变差，先怎么处理？","options":[{"text":"所有矿料混在一起，不必分批","quality":0},{"text":"先维持旧工艺，由老匠人挑料","quality":1},{"text":"分批试验并记录矿料杂质与品质","quality":2}],"explanation":"矿料杂质会影响铁钢品质，原料变化不能忽略。","source":"ou_steel"},
+  {"id":"iron_grade","topic":"mining","prompt":"找到含铁量低的矿样，应该怎样判断能否扩大使用？","options":[{"text":"小批试制，比较成品与处理成本","quality":2},{"text":"继续采购旧矿料，暂不扩大","quality":1},{"text":"不需试验，所有矿石处理成本都相同","quality":0}],"explanation":"低品位原料的可用性与处理方法、成本有关。","source":"usgs_grade"},
+  {"id":"salt_filter","topic":"salt","prompt":"卤水有泥，怎样先去掉不溶的泥沙？","options":[{"text":"加更多泥，盐就会变多","quality":0},{"text":"沉降、过滤，再进行浓缩","quality":2},{"text":"维持旧锅法，小批慢做","quality":1}],"explanation":"过滤分离不溶固体；溶解的盐仍在卤水中。","source":"rsc_sep"},
+  {"id":"salt_evaporate","topic":"salt","prompt":"卤水变少而盐逐渐析出，主要是什么离开了容器？","options":[{"text":"水被蒸发，盐逐渐浓缩结晶","quality":2},{"text":"按老盐工经验继续，不改参数","quality":1},{"text":"盐全部变成气体，所以水更咸","quality":0}],"explanation":"蒸发减少溶剂水，能够促使溶解物结晶。","source":"gt_crystal"},
+  {"id":"salt_dissolved","topic":"salt","prompt":"有人说细布能直接滤出卤水里全部溶解盐，你怎么看？","options":[{"text":"完全正确，反复过布就能取尽盐","quality":0},{"text":"先沿用旧的煮卤法","quality":1},{"text":"细布去泥沙；取盐还需浓缩等步骤","quality":2}],"explanation":"溶解盐与悬浮泥沙不同，普通过滤不能代替蒸发取盐。","source":"rsc_sep"},
+  {"id":"salt_origin","topic":"salt","prompt":"谈到咸水蒸发形成盐的沉积，你会想到哪条原理？","options":[{"text":"水减少后，溶解盐可以沉积下来","quality":2},{"text":"暂按现有盐工经验办","quality":1},{"text":"盐只能由泥沙变成，与咸水无关","quality":0}],"explanation":"溶解盐类可随水分蒸发形成沉积。","source":"bgs_salt"},
+  {"id":"sugar_filter","topic":"sugar","prompt":"蔗汁中有细小蔗渣，下一步如何处理？","options":[{"text":"先澄清和过滤，分离悬浮杂质","quality":2},{"text":"维持旧式小锅法","quality":1},{"text":"把蔗渣全部当糖晶体留下","quality":0}],"explanation":"糖汁澄清过滤会分离泥渣、蔗渣等悬浮物。","source":"fao_filter"},
+  {"id":"sugar_sequence","topic":"sugar","prompt":"从甘蔗原料到糖，哪条改良路线更完整？","options":[{"text":"把整根甘蔗晒干，直接得到精糖","quality":0},{"text":"提汁、澄清、浓缩，再尝试结晶","quality":2},{"text":"暂保持老匠人的制糖方法","quality":1}],"explanation":"制糖有提汁、净化、浓缩、结晶等环节。","source":"fao_sugar"},
+  {"id":"sugar_water","topic":"sugar","prompt":"糖汁太稀，你想到的浓缩原理是什么？","options":[{"text":"再加清水，糖浓度会提高","quality":0},{"text":"继续旧法，不扩大作坊","quality":1},{"text":"去掉部分水，提高溶液浓度","quality":2}],"explanation":"浓缩减少水分，不是凭空生成糖。","source":"fao_sugar"},
+  {"id":"sugar_mud","topic":"sugar","prompt":"澄清槽底部的泥渣能直接算作糖的产量吗？","options":[{"text":"能，沉下来的全都是糖","quality":0},{"text":"不能，应分开记录清汁与泥渣","quality":2},{"text":"维持旧作坊的分类经验","quality":1}],"explanation":"澄清所得清汁与分离出的泥渣不是同一种产品。","source":"fao_filter"}
+ ]
+}

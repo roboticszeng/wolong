@@ -1,0 +1,18 @@
+# Local tools, downloads and reports
+/.tools/
+/logs/
+/exports/
+*.bak
+*.lnk
+
+# Godot generated files
+.godot/
+*.tmp
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Third-party assets forbid redistribution as source files.
+/game/assets/third_party/**/*.png

@@ -1,0 +1,72 @@
+﻿[
+    {
+        "File":  "game\\assets\\audio\\kenney\\bong_001.ogg",
+        "Bytes":  4848,
+        "SHA256":  "D21D0F0B782445DB579D11E2506B24CD1AC9D664EE33AEAF807761AA7B6FD710"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\click_002.ogg",
+        "Bytes":  4275,
+        "SHA256":  "ADCD1F4ADC35F1B41BC1B5BBEFEFF7AA44F2F3F0D96D3199B544140C7C1E761C"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\click_003.ogg",
+        "Bytes":  4371,
+        "SHA256":  "2FA929138BC3A0F432696588F66EAC94B8F6D463905EC8808C6461CE4B054292"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\click_crisp.wav",
+        "Bytes":  916,
+        "SHA256":  "3637BDA18A9E5F776A5B95C19E7F6841B32B943F9386D5EC4D92A2E3A777625A"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\close_001.ogg",
+        "Bytes":  9915,
+        "SHA256":  "44AF8249B933E0FD35EC957A638BB1A0B01F85B53FBE9674BF77BD3CA3168EF4"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\confirmation_002.ogg",
+        "Bytes":  14169,
+        "SHA256":  "33B17A9A9A2397C62B285C52C33A907FDFFB476909C99E42DDE603F6A7A8B12C"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\drop_002.ogg",
+        "Bytes":  6411,
+        "SHA256":  "4AC4D1CEF7E936965CBF795852CA2020300B9E2BA7DAA59F2BF4F1F7BF416218"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\error_002.ogg",
+        "Bytes":  7369,
+        "SHA256":  "76810EC365F41078FD0507101DA5BB7B8730FE011DDE43908329FDABD8575E79"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\open_002.ogg",
+        "Bytes":  14975,
+        "SHA256":  "24FF224FE2C09C6AED1B41249825382DC74CF324B887FF279D8494912CE2BEEE"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\pluck_001.ogg",
+        "Bytes":  6317,
+        "SHA256":  "BE97EC4893A02D6ECCFB678DAA76C83E34CB2583B834EC2593D2641DEF739FA4"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\scroll_001.ogg",
+        "Bytes":  21633,
+        "SHA256":  "320C6AAFB2C7A503EAE508DC443B72D7F7C0A317BFD16813157ED400CD04CF16"
+    },
+    {
+        "File":  "game\\assets\\audio\\kenney\\select_003.ogg",
+        "Bytes":  6901,
+        "SHA256":  "9A612FD2F513D52A296906B41071C990F75DEFE56BE3BEE60D2D4E2423B51B8B"
+    },
+    {
+        "File":  "game\\assets\\audio\\tozan\\asianoriental1.ogg",
+        "Bytes":  1927536,
+        "SHA256":  "172D95262348D020D7D1428046B100AEFBAD0A6CBAA93EF87EFAFEB8ADD107D0"
+    },
+    {
+        "File":  "game\\assets\\audio\\tozan\\asianoriental2.ogg",
+        "Bytes":  3601956,
+        "SHA256":  "AD7A04DCA194D467B7F135B019B7E2B381B1E8CD2D21F38448DF5BB2D145B211"
+    }
+]
